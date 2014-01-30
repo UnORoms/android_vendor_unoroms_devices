@@ -1,0 +1,13 @@
+diff --git a/BoardConfig.mk b/BoardConfig.mk
+index a6fb3a0..34bbbf8 100755
+--- a/BoardConfig.mk
++++ b/BoardConfig.mk
+@@ -27,7 +27,7 @@ TARGET_NO_BOOTLOADER := true
+ TARGET_NO_RADIOIMAGE := true
+ TARGET_BOOTLOADER_BOARD_NAME := pyramid
+ BOARD_WANTS_EMMC_BOOT := true
+-TARGET_CPU_VARIANT := scorpion
++TARGET_CPU_VARIANT := cortex-a9
+ 
+ # Kernel
+ BOARD_KERNEL_BASE := 0x48000000
