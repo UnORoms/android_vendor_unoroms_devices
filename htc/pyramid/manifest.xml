@@ -1,10 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
-  <project path="device/htc/pyramid" name="Team-SennyC2/android_device_htc_pyramid" remote="gh" revision="cm-11.0" />
-  <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
-  <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
+ <!--Device-specific repositories-->
+  <project path="device/htc/pyramid" name="Team-SennyC2/android_device_htc_pyramid" remote="github" revision="cm-11.0" />
+  <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="github" revision="cm-11.0" />
+  <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="github" revision="cm-11.0-caf" />
 
-  <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="gh" revision="master"/>
+ <remove-project path="hardware/ril" name="SlimRoms/hardware_ril" />
+  <project path="hardware/ril"   name="CyanogenMod/android_hardware_ril"   remote="github" revision="cm-11.0" />
+  <remove-project path="hardware/qcom/gps" name="SlimRoms/hardware_qcom_gps" />
+  <project path="hardware/qcom/gps"   name="CyanogenMod/android_hardware_qcom_gps"   remote="github" revision="cm-11.0" />
+
+
+ <project path="hardware/qcom/audio-caf"   name="CyanogenMod/android_hardware_qcom_audio-caf"   remote="github" revision="cm-11.0" /> 
+  <project path="hardware/qcom/display-caf" name="CyanogenMod/android_hardware_qcom_display-caf" remote="github" revision="cm-11.0" /> 
+  <project path="hardware/qcom/media-caf"   name="CyanogenMod/android_hardware_qcom_media-caf"   remote="github" revision="cm-11.0" />
 
 </manifest>
