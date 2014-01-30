@@ -9,7 +9,6 @@
   <remove-project name="android_hardware_qcom_media-caf" />
   <remove-project name="android_hardware_qcom_display-caf" />
   <remove-project name="android_hardware_qcom_audio-caf"  />
-  <remove-project name="android_hardware_qcom_gps"  />
   <remove-project name="android_hardware_ril"  />
 
 
