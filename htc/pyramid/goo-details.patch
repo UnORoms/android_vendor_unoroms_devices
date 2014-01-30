@@ -1,0 +1,16 @@
+diff --git a/system.prop b/system.prop
+index df1d74b..3651ed1 100755
+--- a/system.prop
++++ b/system.prop
+@@ -27,11 +27,6 @@ ro.ril.set.mtu1472=1
+ wifi.interface=wlan0
+ wifi.supplicant_scan_interval=160
+ #
+-# GooManager
+-ro.goo.developerid=sultanxda
+-ro.goo.rom=SennyCM11pyramid
+-ro.goo.board=pyramid
+-#
+ # Power Saving/Sleep
+ #
+ ro.ril.disable.power.collapse=0
