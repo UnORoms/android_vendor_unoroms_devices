@@ -9,6 +9,9 @@
   <project path="vendor/htc" name="Team-SennyC2/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
   <project path="kernel/htc/pyramid" name="Team-SennyC2/senny_kernel-3.4" remote="gh" revision="cm-11.0-caf" />
 
+  <!--Linaro toolchain-->
+  <project path="prebuilt/linux-x86/toolchain" name="Christopher83/linaro_toolchains_2014" remote="gh" revision="2014.01" />
+
   <project path="packages/apps/GooManager" name="solarnz/GooManager_prebuilt" remote="gh" revision="master"/>
 
 </manifest>
