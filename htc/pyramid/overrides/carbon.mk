@@ -32,6 +32,8 @@ PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_pyramid BUILD_FINGERPRINT=tmous
 
 CARBON_BUILDTYPE := UNOFFICIAL-KERNEL-3.4
 
+PRODUCT_BOOTANIMATION := vendor/unoroms/devices/htc/pyramid/bootanimation.zip
+
 #Goo.im params
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=shantur \
