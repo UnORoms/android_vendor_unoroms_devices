@@ -1,3 +1,3 @@
 cd build
-patch -p1 < ../device/htc/pyramid/patches/build.patch
+patch -p1 < ../vendor/unoroms/devices/htc/pyramid/build.patch
 cd -
