@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <project name="bilalliberty/android_device_htc_villec2" path="device/htc/villec2" remote="github" revision="cm-11.0_3.4" />
+  <project name="bilalliberty/android_kernel_htc_liberty-villec2" path="kernel/htc/villec2" remote="github" revision="cm-11.0" />
+  <project name="bilalliberty/proprietary_vendor_htc" path="vendor/htc-extra/villec2" remote="github" revision="cm-11.0_3.4" />
+</manifest>
