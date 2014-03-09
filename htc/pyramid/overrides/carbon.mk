@@ -30,6 +30,8 @@ PRODUCT_PROPERTY_OVERRIDES += ro.buildzipid=carbon.pyramid.$(shell date +%m%d%y)
 # Set build fingerprint / ID / Product Name ect.
 PRODUCT_BUILD_PROP_OVERRIDES += PRODUCT_NAME=htc_pyramid BUILD_FINGERPRINT=tmous/htc_pyramid/pyramid:4.0.3/IML74K/356011.14:user/release-keys PRIVATE_BUILD_DESC="3.32.531.14 CL356011 release-keys" BUILD_NUMBER=356011
 
+PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
+
 CARBON_BUILDTYPE := UNOFFICIAL-KERNEL-3.4
 
 PRODUCT_BOOTANIMATION := vendor/unoroms/devices/htc/pyramid/bootanimation.zip
