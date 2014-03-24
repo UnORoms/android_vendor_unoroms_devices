@@ -1,5 +1,5 @@
 cd device/htc/pyramid 
-patch -p1 < ../../../vendor/unoroms/devices/htc/pyramid/goo-details.patch
+patch -p1 < ../../../vendor/unoroms/devices/htc/pyramid/overlays.patch
 cd -
 
 cp vendor/unoroms/devices/htc/pyramid/pyramid.mk vendor/aokp/products/
