@@ -34,8 +34,6 @@ PRODUCT_AAPT_CONFIG := normal hdpi xhdpi
 
 CARBON_BUILDTYPE := UNOFFICIAL-KERNEL-3.4
 
-PRODUCT_BOOTANIMATION := vendor/unoroms/devices/htc/pyramid/bootanimation.zip
-
 #Goo.im params
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.goo.developerid=shantur \
