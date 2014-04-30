@@ -1,0 +1,27 @@
+diff --git a/sepolicy/file.te b/sepolicy/file.te
+index 6517a48..55bf971 100644
+--- a/sepolicy/file.te
++++ b/sepolicy/file.te
+@@ -4,6 +4,8 @@ type qmux_bluetooth_socket, file_type;
+ type qmux_gps_socket, file_type;
+ type qmux_radio_socket, file_type;
+ 
++type audio_firmware_file, file_type;
++
+ allow efs_file rootfs:filesystem associate;
+ allow cache_file rootfs:filesystem associate;
+ allow asec_apk_file rootfs:filesystem associate;
+diff --git a/sepolicy/file_contexts b/sepolicy/file_contexts
+index a720690..3cd05c2 100644
+--- a/sepolicy/file_contexts
++++ b/sepolicy/file_contexts
+@@ -25,6 +25,9 @@
+ # Qualcomm MSM Audio ACDB device
+ /dev/msm_acdb       u:object_r:msm_acdb_device:s0
+ 
++# Qualcomm audio firmware files
++/data/misc/audio/*                 u:object_r:audio_firmware_file:s0
++
+ /dev/ks_hsic_bridge                u:object_r:kickstart_device:s0
+ /dev/efs_hsic_bridge               u:object_r:kickstart_device:s0
+ 
