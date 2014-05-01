@@ -7,6 +7,7 @@
 
   <project path="device/htc/pyramid" name="Flemmard/android_device_htc_pyramid" remote="gh" revision="cm-11.0" />
   <project path="device/htc/msm8660-common" name="Flemmard/android_device_htc_msm8660-common" remote="gh" revision="cm-11.0" />
+  <remove-project path="vendor/htc" name="TheMuppets/proprietary_vendor_htc" />
   <project path="vendor/htc" name="Flemmard/proprietary_vendor_htc" remote="gh" revision="cm-11.0" />
   <project path="kernel/htc/msm8660" name="Flemmard/akh8960_cm" remote="gh" revision="8660-tp-merge" />
  
