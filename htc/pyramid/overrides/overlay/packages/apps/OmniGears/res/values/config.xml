@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+<!-- LED Colors -->
+   <string-array name="entries_led_colors" translatable="false">
+       <item>@string/led_color_green</item>
+       <item>@string/led_color_red</item>
+   </string-array>
+   
+   <string-array name="values_led_colors" translatable="false">
+       <item>#FF00FF00</item>
+       <item>#FFFF0000</item>
+   </string-array>
+
+<!-- Hardware Buttons -->
+<bool name="config_has_hardware_buttons">true</bool>
+
+<bool name="config_show_volumeRockerWake">true</bool>
+</resources>
