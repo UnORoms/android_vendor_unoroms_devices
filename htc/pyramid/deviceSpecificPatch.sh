@@ -1,7 +1,3 @@
-cd system/vold
-patch -p1 < ../../vendor/unoroms/devices/htc/pyramid/vold.patch
-cd -
-
 cd device/htc/msm8660-common
 patch -p1 < ../../../vendor/unoroms/devices/htc/pyramid/sepolicy.patch
 cd -
