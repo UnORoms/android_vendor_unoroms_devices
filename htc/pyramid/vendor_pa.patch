@@ -1,0 +1,27 @@
+diff --git a/configs/bootanimation.mk b/configs/bootanimation.mk
+index 5ef9023..2f7c40b 100644
+--- a/configs/bootanimation.mk
++++ b/configs/bootanimation.mk
+@@ -29,7 +29,7 @@ ifneq ($(filter pa_edison pa_maserasti pa_spyder pa_targa pa_umts_spyder pa_hika
+ endif
+ 
+ # PA HDPI Devices
+-ifneq ($(filter pa_galaxysmtd pa_i9082 pa_i9100 pa_i9100g pa_p3100 pa_p3110 pa_serrano3gxx pa_serranoltexx pa_ville,$(TARGET_PRODUCT)),)
++ifneq ($(filter pa_galaxysmtd pa_i9082 pa_i9100 pa_i9100g pa_p3100 pa_p3110 pa_pyramid pa_serrano3gxx pa_serranoltexx pa_ville,$(TARGET_PRODUCT)),)
+     PRODUCT_COPY_FILES += \
+         vendor/pa/prebuilt/bootanimation/800x480.zip:system/media/bootanimation.zip
+ endif
+diff --git a/products/AndroidProducts.mk b/products/AndroidProducts.mk
+index 1eb7f54..c0e1ed6 100644
+--- a/products/AndroidProducts.mk
++++ b/products/AndroidProducts.mk
+@@ -204,6 +204,9 @@ endif
+ ifeq (pa_ville,$(TARGET_PRODUCT))
+     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_ville.mk
+ endif
++ifeq (pa_pyramid,$(TARGET_PRODUCT))
++    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_pyramid.mk
++endif
+ ifeq (pa_vs980,$(TARGET_PRODUCT))
+     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_vs980.mk
+ endif
