@@ -1,0 +1,36 @@
+diff --git a/mm-core/inc/QCMetaData.h b/mm-core/inc/QCMetaData.h
+index 432f290..6a2af1d 100644
+--- a/mm-core/inc/QCMetaData.h
++++ b/mm-core/inc/QCMetaData.h
+@@ -36,7 +36,6 @@ namespace android {
+ enum {
+     kKeyAacCodecSpecificData = 'nacc' , // for native aac files
+ 
+-#if 0
+     kKeyRawCodecSpecificData = 'rcsd',  // raw data - added to support mmParser
+     kKeyDivXVersion          = 'DivX',  // int32_t
+     kKeyDivXDrm              = 'QDrm',  // void *
+@@ -48,7 +47,6 @@ enum {
+     kKeyWMAFormatTag         = 'fmtt',  // int64_t
+     kKeyWMABitspersample     = 'bsps',  // int64_t
+     kKeyWMAVirPktSize        = 'vpks',  // int64_t
+-#endif
+     kKeyWMAChannelMask       = 'chmk',  // int32_t
+ 
+     kKeyFileFormat           = 'ffmt',  // cstring
+@@ -67,7 +65,6 @@ enum {
+     kKeyHFR                  = 'hfr ',  // int32_t
+ };
+ 
+-#if 0
+ enum {
+     kTypeDivXVer_3_11,
+     kTypeDivXVer_4,
+@@ -79,7 +76,6 @@ enum {
+     kTypeWMAPro,
+     kTypeWMALossLess,
+ };
+-#endif
+ 
+ //This enum should be keep in sync with "enum Flags" in MediaExtractor.h in AOSP,
+ //Value should reflect as last entry in the enum
